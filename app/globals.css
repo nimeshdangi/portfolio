@@ -1,27 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@layer base {
+    html {
+        font-family: 'Raleway', sans-serif;
+        scroll-behavior: smooth;
+    }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+  
+    .great-vibes-regular {
+        font-family: "Great Vibes", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+      .moving-text {
+        position: relative;
+        animation: moveText 15s infinite; /* Adjust timing as needed */
+      }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+      @keyframes moveText {
+        from {
+          left: 0;
+        }
+        to {
+          left: calc(100% - 100px); /* Adjust the 100px to the width of your text element */
+        }
+      }
+      
 }
