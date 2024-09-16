@@ -47,8 +47,8 @@ const Contact = () => {
                 action="https://getform.io/f/amdperyb"
                 method="POST"
               >
-                <div className="grid md:grid-cols-2 gap-4 w-full py-2">
-                  <div className="flex flex-col">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full py-2">
+                  <div className="flex flex-col col-span-2 md:col-span-1">
                     <label className="capitalize text-sm py-2 text-slate-600 font-light">
                       name
                     </label>
@@ -58,7 +58,7 @@ const Contact = () => {
                       className="border-2 rounded-lg p-3 flex focus:outline-none border-blue-200"
                     />
                   </div>
-                  <div className="flex flex-col">
+                  <div className="flex flex-col col-span-2 md:col-span-1">
                     <label className="capitalize text-sm py-2 text-slate-600 font-light">
                       phone
                     </label>

@@ -19,6 +19,7 @@
       }
 
       .moving-text {
+        /* max-width: min-content; */
         position: relative;
         animation: moveText 15s infinite; /* Adjust timing as needed */
       }
