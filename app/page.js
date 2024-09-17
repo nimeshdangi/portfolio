@@ -23,7 +23,7 @@ export default function Home() {
           </div>
           <h1 className='uppercase font-bold text-gray-700 text-5xl lg:text-7xl mb-4'>Passionate Web Developer</h1>
           <p className='text-gray-600 text-xl max-w-sm mx-auto mt-7 mb-8'>
-            I am just starting out in web development with no prior experience, and this is the first project I have done on my own. I am now committed to learning and growing more. I have used ChatGPT to help guide me through this project.
+            I am just starting out in web development with no prior experience, and this is the first project I have done on my own. The primary objective of this project was to gain expertise in setting up and working with various frameworks to build a functional and cohesive application.
           </p>
           <Link href="/#me" className="group flex items-center justify-center my-8 bg-gray-800 text-white px-6 py-3 font-bold uppercase rounded-md hover:bg-blue-700 tracking-wider">
             Know more
